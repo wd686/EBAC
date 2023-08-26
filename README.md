@@ -2,7 +2,7 @@
 ## EBA5002 - Practice Project
 ## Title: PLACEHOLDER
 ## Members:
-| Official Full Name  | Student ID (MTech Applicable) | Email (Optional) |
+| Official Full Name  | Student ID | Email |
 | :------------ |:---------------:| :-----|
 | Ang Mei Chi | AXXXXXXXA | eXXXXXXX@u.nus.edu |
 | Lew Kuan Teng Roy | AXXXXXXXA | eXXXXXXX@u.nus.edu |
