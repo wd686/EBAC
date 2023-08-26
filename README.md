@@ -1,2 +1,11 @@
-# Predictive Analytics - Insights of Trends & Irregularities [Practice Project]
-﻿# IRS-MR-2019-07-01-IS1FT-GRP-MEWPlanner
+# Predictive Analytics - Insights of Trends & Irregularities
+## EBA5002 - Practice Project
+## Title: PLACEHOLDER
+## Members:
+| Official Full Name  | Student ID (MTech Applicable) | Email (Optional) |
+| :------------ |:---------------:| :-----|
+| Ang Mei Chi | AXXXXXXXA | eXXXXXXX@u.nus.edu |
+| Lew Kuan Teng Roy | AXXXXXXXA | eXXXXXXX@u.nus.edu |
+| Liu Wudi | AXXXXXXXA | eXXXXXXX@u.nus.edu |
+| Michael Wong Wait Kit | AXXXXXXXA | eXXXXXXX@u.nus.edu |
+| Ong Wee Yang | AXXXXXXXA | eXXXXXXX@u.nus.edu |
