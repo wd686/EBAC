@@ -3,28 +3,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+from commonFunctions import hist
+
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
-### Common Functions
-# displayNonNull_statsforNum_groupsforCat_uniqueVars
-
-def detailSummary(df):
-    print(df.info())
-    for x in df.columns.to_list():
-        print(f"No. of unique variable '{x}': {df[x].nunique()}")
-    print(df.describe())
-    for x in df.columns.to_list():
-        if df[x].dtype in ['int64', 'float64']:
-            continue
-        else:
-            print(df[x].value_counts())
-def hist(df, column_name):
-    plt.hist(df[column_name], bins=10, edgecolor='black')
-    plt.xlabel(column_name)
-    plt.ylabel('Frequency')
-    plt.title(f'{column_name} Distribution')
-    plt.grid(axis='y', alpha=0.75)
-    plt.show()
 ### Load datasets
 # based on what columns we deem necessary, may need to rename df/ column names
 # need to choose the impt Score/ Rating/ metacritic Matrix defined to be from Beta testers (we've too many)
@@ -38,8 +20,6 @@ gameInfo = pd.read_csv('../dataSources/videoGames/metacritic_game_info.csv')
 ratingsAndReleaseDate = pd.read_csv('../dataSources/videoGames/updatedVGOutput.csv')
 gameScore = pd.read_excel('../dataSources/videoGames/metascore-video-games-1986-2023.xlsx', sheet_name='Sheet1')
 gameSales = pd.read_excel('../dataSources/videoGames/Video game sales - 2000 - 2020.xlsx', sheet_name= 'Sheet1')
-# can join via title/name
-print(f"userComments1: {userComments1.columns}\n\ngameInfo:{gameInfo.columns}\n\ngameSales: {gameSales.columns}")
 # userComments[~(userComments.Title.isin(gameSales.title))].groupby('Title').count().sort_values(by = 'Comment', ascending = False)
 # can join via title/name
 print(f"userComments1: {userComments1.columns}\n\ngameInfo:{gameInfo.columns}\n\nratingsAndReleaseDate: {ratingsAndReleaseDate.columns}\n\ngameScore: {gameScore.columns}\n\ngameSales: {gameSales.columns}")
@@ -70,6 +50,10 @@ userComments.shape
 # some users commented & gave rating more than once per game and platform
 (userComments.Title + userComments.Platform + userComments.Username).nunique()
 userComments[['Title', 'Comment']].groupby('Title').count().reset_index().sort_values(by = 'Comment', ascending = False).head(10)
+
+
+
+
 ### gameInfo
 gameInfo.drop(columns = 'Unnamed: 0', inplace = True)
 gameInfo.loc[gameInfo.Metascore == 'not specified', 'Metascore'] = -999
