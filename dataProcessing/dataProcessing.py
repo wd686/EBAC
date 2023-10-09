@@ -39,6 +39,9 @@ ratingsAndReleaseDate = pd.read_csv('../dataSources/videoGames/updatedVGOutput.c
 gameScore = pd.read_excel('../dataSources/videoGames/metascore-video-games-1986-2023.xlsx', sheet_name='Sheet1')
 gameSales = pd.read_excel('../dataSources/videoGames/Video game sales - 2000 - 2020.xlsx', sheet_name= 'Sheet1')
 # can join via title/name
+print(f"userComments1: {userComments1.columns}\n\ngameInfo:{gameInfo.columns}\n\ngameSales: {gameSales.columns}")
+# userComments[~(userComments.Title.isin(gameSales.title))].groupby('Title').count().sort_values(by = 'Comment', ascending = False)
+# can join via title/name
 print(f"userComments1: {userComments1.columns}\n\ngameInfo:{gameInfo.columns}\n\nratingsAndReleaseDate: {ratingsAndReleaseDate.columns}\n\ngameScore: {gameScore.columns}\n\ngameSales: {gameSales.columns}")
 # some users commented & gave rating more than once per game and platform (unique only when combine all cols)
 userComments1.head()
@@ -50,6 +53,7 @@ ratingsAndReleaseDate.head()
 gameScore.head()
 gameSales.head()
 ### userComments
+# userComments.groupby('Title').first().sort_values(by = 'Title').reset_index()
 userComments3['Unnamed: 0'] = userComments3['Unnamed: 0'].astype('float64')
 userComments3['Userscore'] = userComments3['Userscore'].astype('float64')
 
@@ -65,6 +69,7 @@ userComments.head()
 userComments.shape
 # some users commented & gave rating more than once per game and platform
 (userComments.Title + userComments.Platform + userComments.Username).nunique()
+userComments[['Title', 'Comment']].groupby('Title').count().reset_index().sort_values(by = 'Comment', ascending = False).head(10)
 ### gameInfo
 gameInfo.drop(columns = 'Unnamed: 0', inplace = True)
 gameInfo.loc[gameInfo.Metascore == 'not specified', 'Metascore'] = -999
@@ -83,6 +88,7 @@ gameInfo[gameInfo.Avg_Userscore == -998].shape # 75 rows .. keep? not sure if th
 # No_Players >> 52 categories .. combine them??
 gameInfo.No_Players.value_counts().shape
 # gameInfo.No_Players.value_counts()
+# gameInfo.No_Players.value_counts()
 # No_Players .. 7 missing entries
 gameInfo.info()
 gameInfo.Metascore.describe()
@@ -95,7 +101,7 @@ for x in gameInfo.select_dtypes(include=['Int64', 'float64']):
 gameInfo.head()
 gameInfo.shape
 gameInfo.Title.nunique()
-(gameInfo.Title + gameInfo.Year.astype(str) + gameInfo.Publisher + gameInfo.Genre + gameInfo.Platform).nunique()
+(gameInfo.Title + gameInfo.Year.astype(str) + gameInfo.Developer + gameInfo.Genre + gameInfo.Platform).nunique()
 ### ratingsAndReleaseDate
 ratingsAndReleaseDate.head()
 # unique names!
