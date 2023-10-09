@@ -2,6 +2,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
 
 from commonFunctions import hist
 
@@ -45,15 +47,112 @@ userComments.dropna(how = 'all', inplace = True)
 userComments.info()
 userComments.describe()
 hist(userComments, 'Userscore')
-userComments.head()
+userComments.sample(10)
 userComments.shape
 # some users commented & gave rating more than once per game and platform
 (userComments.Title + userComments.Platform + userComments.Username).nunique()
-userComments[['Title', 'Comment']].groupby('Title').count().reset_index().sort_values(by = 'Comment', ascending = False).head(10)
+df = userComments.copy()
+platformList = df.groupby('Platform')['Comment'].count().reset_index().sort_values(by = 'Comment', ascending = False).head(6).Platform.to_list()
+df = userComments[userComments.Platform.isin(platformList)]
+# Create a facet grid with Seaborn
+g = sns.FacetGrid(df, col='Platform', col_wrap=3)
+g.map(sns.histplot, 'Userscore', kde=False)
 
+# Add labels for mean, median, SD, and IQR
+for platform, ax in zip(df['Platform'].unique(), g.axes):
+    platform_data = df[df['Platform'] == platform]['Userscore']
+    mean = platform_data.mean()
+    median = platform_data.median()
+    std_dev = platform_data.std()
+    iqr = platform_data.quantile(0.75) - platform_data.quantile(0.25)
+    
+    ax.axvline(mean, color='red', linestyle='dashed', label=f'Mean: {mean:.2f}')
+    ax.axvline(std_dev, color='green', linestyle='dashed', alpha= 0, label=f'SD: {std_dev:.2f}')
+    ax.axvline(median, color='blue', linestyle='dashed', label=f'Median: {median:.2f}')
+    ax.axvline(iqr, color='orange', linestyle='dashed', alpha = 0, label=f'IQR: {iqr:.2f}')
+    ax.legend()
 
+# Adjust plot aesthetics
+g.set_axis_labels('Userscore', '')
+g.fig.suptitle('Distribution of Userscores by Platform (Most Popular 6)', fontsize=16)
+g.set(ylim=(0, None))
 
+# Show the plot
+plt.subplots_adjust(top=0.85)
+plt.show()
+title_counts = userComments.groupby('Title')['Comment'].count().reset_index().sort_values(by = 'Comment', ascending = False).head(10)
+title_platform_counts = userComments.groupby(['Title', 'Platform'])['Comment'].count().reset_index()
+title_platform_counts = pd.merge(title_counts[['Title']], title_platform_counts, how = 'left', on = 'Title')
 
+df = title_platform_counts.copy()
+# Pivot the data to create a DataFrame suitable for a stacked bar chart
+pivot_df = df.pivot(index='Title', columns='Platform', values='Comment')
+
+# Sort by the total number of comments in descending order
+sorted_titles = pivot_df.sum(axis=1).sort_values().index
+pivot_df = pivot_df.loc[sorted_titles]
+
+# Sort platforms by the total number of comments
+sorted_platforms = pivot_df.sum().sort_values(ascending=False).index
+pivot_df = pivot_df[sorted_platforms]
+
+# Create a figure and axis
+fig, ax = plt.subplots(figsize=(10, 8))
+
+# Use a Seaborn color palette for better colors
+colors = sns.color_palette("Set3", n_colors=len(pivot_df.columns))
+
+# Plot the stacked bar chart
+bars = pivot_df.plot(kind='barh', stacked=True, color=colors, alpha=0.8, ax=ax)
+
+ax.set_xlabel('Number of Comments', fontsize=12)
+ax.set_ylabel('Title', fontsize=12)
+ax.set_title('Top 10 Most Commented Games (By Platform)', fontsize=14)
+ax.spines[['right', 'top']].set_visible(False)
+
+# Add data labels to the bars
+for container in bars.containers:
+    ax.bar_label(container, fmt='%.0f', label_type='center', fontsize=10, color='black')
+
+# Add legends
+ax.legend(loc='upper left', bbox_to_anchor=(0.99, 1), labels=sorted_platforms, fontsize=10)
+
+plt.tight_layout()
+plt.show()
+
+df = userComments.copy()
+noOfComments = df.groupby(['Username', 'Title']).count().reset_index()
+noOfComments.drop(columns = ['Platform', 'Userscore'], inplace = True)
+noOfComments['Comment'] = noOfComments.Comment.astype('string')
+df = noOfComments.copy()
+# Group by Platform and Comment and calculate percentage
+grouped = df.groupby(['Comment']).size().reset_index(name='Count')
+total_comments = grouped['Count'].sum()
+grouped['Percentage'] = (grouped['Count'] / total_comments) * 100
+
+# Create a treemap
+fig = px.treemap(grouped, 
+                 path=['Comment'], 
+                 values='Percentage', 
+                 title='Treemap of Comments by Platform and Comment',
+                 hover_data=['Percentage'],  # Display percentage in hover
+                 color_discrete_sequence=px.colors.qualitative.Pastel,
+                 width=1300, height=400)
+
+# Customize hover template to show percentage values
+fig.update_traces(textinfo='label+percent parent')
+
+# Update treemap layout
+fig.update_layout(
+    margin=dict(t=40, b=0, l=0, r=0),
+    treemapcolorway=px.colors.qualitative.Pastel,
+    uniformtext=dict(minsize=10),
+    hoverlabel=dict(bgcolor='white', font_size=14),
+    title=dict(text='No. of Comments from same Username per Game', font=dict(size=20, color='black'), x=0.5),
+)
+
+# Show the treemap
+fig.show()
 ### gameInfo
 gameInfo.drop(columns = 'Unnamed: 0', inplace = True)
 gameInfo.loc[gameInfo.Metascore == 'not specified', 'Metascore'] = -999
