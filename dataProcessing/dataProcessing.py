@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-from commonFunctions import hist
+from commonFunctions import hist, detailSummary
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
@@ -153,6 +153,22 @@ fig.update_layout(
 
 # Show the treemap
 fig.show()
+userComments.Platform.unique()
+platformMap = {
+'DS': 'DS',
+'iOS': 'iOS',
+'PC': 'PC',
+'PlayStation': 'PS',
+'PlayStation2': 'PS2',
+'PlayStation3': 'PS3',
+'PlayStation4': 'PS4',
+'PlayStation5': 'PS5'
+}
+
+userComments['Platform_alignedNaming'] = userComments.Platform.map(platformMap)
+userComments.loc[userComments.Platform_alignedNaming == 'not specified', 'Platform_alignedNaming'] = np.NaN
+userComments.Platform_alignedNaming.unique()
+USERCOMMENTS = userComments.copy()
 ### gameInfo
 gameInfo.drop(columns = 'Unnamed: 0', inplace = True)
 gameInfo.loc[gameInfo.Metascore == 'not specified', 'Metascore'] = -999
