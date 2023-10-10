@@ -175,7 +175,6 @@ platformMap = {
 userComments['Platform_alignedNaming'] = userComments.Platform.map(platformMap)
 userComments.loc[userComments.Platform_alignedNaming == 'not specified', 'Platform_alignedNaming'] = np.NaN
 userComments.Platform_alignedNaming.unique()
-USERCOMMENTS = userComments.copy()
 ### gameInfo
 gameInfo.drop(columns = 'Unnamed: 0', inplace = True)
 gameInfo.loc[gameInfo.Metascore == 'not specified', 'Metascore'] = -999

@@ -32,9 +32,9 @@ gameScore_final.platform.unique()
 main.drop(columns= 'releasedate_1986-2023', inplace = True)
 gameScore_final.rename(columns = {'release_date': 'releasedate_1986-2023', 'name': 'title'}, inplace = True)
 
-MAIN = pd.merge(main, gameScore_final, how = 'left', on = ['title', 'platform'])
+mainDf = pd.merge(main, gameScore_final, how = 'left', on = ['title', 'platform'])
 # Only 1421 release dates from 1986-2023 file can be mapped to main table (using title and platform as matching keys)!
 
-MAIN['releasedate_1986-2023'].count()
-MAIN.shape
-MAIN.head()
+mainDf['releasedate_1986-2023'].count()
+mainDf.shape
+mainDf.head()
