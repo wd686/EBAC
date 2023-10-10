@@ -80,6 +80,8 @@ g.set(ylim=(0, None))
 # Show the plot
 plt.subplots_adjust(top=0.85)
 plt.show()
+
+# distribution of userscores are generally similar across various platforms (join by just title with MAIN?)
 title_counts = userComments.groupby('Title')['Comment'].count().reset_index().sort_values(by = 'Comment', ascending = False).head(10)
 title_platform_counts = userComments.groupby(['Title', 'Platform'])['Comment'].count().reset_index()
 title_platform_counts = pd.merge(title_counts[['Title']], title_platform_counts, how = 'left', on = 'Title')
@@ -120,6 +122,9 @@ ax.legend(loc='upper left', bbox_to_anchor=(0.99, 1), labels=sorted_platforms, f
 plt.tight_layout()
 plt.show()
 
+# there are uneven distribution of platform comments per game (but that does not mean that within each platform, the comment sentiments are different) ..
+# .. should we generalise that the comments are similar per platform (then join by just title with MAIN?)
+
 df = userComments.copy()
 noOfComments = df.groupby(['Username', 'Title']).count().reset_index()
 noOfComments.drop(columns = ['Platform', 'Userscore'], inplace = True)
@@ -153,6 +158,8 @@ fig.update_layout(
 
 # Show the treemap
 fig.show()
+
+# most users just comment once per game, so the data collection is pretty consistent and not skewed to repeated sampling (from same person)
 userComments.Platform.unique()
 platformMap = {
 'DS': 'DS',
