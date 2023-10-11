@@ -1,12 +1,13 @@
-# variable "tokens" being a list of words/tokens/characters
-
-
-# import nltk
-# import string
-# from nltk import word_tokenize, FreqDist
-# from nltk.corpus import stopwords
+import nltk
+import string
+import matplotlib.pyplot as plt
+from nltk import word_tokenize, FreqDist
+from nltk.corpus import stopwords
 
 def preprocess_text(tokens):
+
+    # variable "tokens" being a list of words/tokens/characters
+
     # Convert all characters to lower case
     tokens = [t.lower() for t in tokens]
 
@@ -36,3 +37,25 @@ def preprocess_text(tokens):
     tokens = [ wnl.lemmatize(t) for t in tokens ] 
 
     return tokens
+
+def detailSummary(df):
+
+    # displayNonNull_statsforNum_groupsforCat_uniqueVars
+
+    print(df.info())
+    for x in df.columns.to_list():
+        print(f"No. of unique variable '{x}': {df[x].nunique()}")
+    print(df.describe())
+    for x in df.columns.to_list():
+        if df[x].dtype in ['int64', 'float64']:
+            continue
+        else:
+            print(df[x].value_counts())
+
+def hist(df, column_name):
+    plt.hist(df[column_name], bins=10, edgecolor='black')
+    plt.xlabel(column_name)
+    plt.ylabel('Frequency')
+    plt.title(f'{column_name} Distribution')
+    plt.grid(axis='y', alpha=0.75)
+    plt.show()
