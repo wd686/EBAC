@@ -1,0 +1,1079 @@
+
+===========================================================================
+                                                    Dependent variable:    
+                                                ---------------------------
+                                                log_transformed_total_sales
+---------------------------------------------------------------------------
+ConsoleAmig                                                1.550           
+                                                          (1.268)          
+                                                                           
+ConsoleDS                                                  0.116           
+                                                          (0.081)          
+                                                                           
+ConsoleGBA                                                2.135*           
+                                                          (1.272)          
+                                                                           
+ConsoleiOS                                                 1.312           
+                                                          (1.267)          
+                                                                           
+ConsoleNS                                                 0.230**          
+                                                          (0.094)          
+                                                                           
+ConsolePC                                                0.479***          
+                                                          (0.073)          
+                                                                           
+ConsolePS2                                                -0.262           
+                                                          (0.198)          
+                                                                           
+ConsolePS3                                               0.707***          
+                                                          (0.074)          
+                                                                           
+ConsolePS4                                               0.571***          
+                                                          (0.075)          
+                                                                           
+ConsolePS5                                                1.156*           
+                                                          (0.652)          
+                                                                           
+ConsolePSN                                                -0.881*          
+                                                          (0.525)          
+                                                                           
+ConsolePSP                                                -0.035           
+                                                          (0.088)          
+                                                                           
+ConsolePSV                                                -0.146           
+                                                          (0.090)          
+                                                                           
+ConsoleSAT                                                 1.123           
+                                                          (1.273)          
+                                                                           
+ConsoleVC                                                -2.519**          
+                                                          (1.268)          
+                                                                           
+ConsoleWii                                               0.445***          
+                                                          (0.085)          
+                                                                           
+ConsoleWiiU                                               -0.189           
+                                                          (0.125)          
+                                                                           
+ConsoleX360                                              0.656***          
+                                                          (0.078)          
+                                                                           
+ConsoleXBL                                                -0.503           
+                                                          (0.578)          
+                                                                           
+ConsoleXOne                                              0.369***          
+                                                          (0.085)          
+                                                                           
+PublisherChunSoft                                        -6.004***         
+                                                          (1.416)          
+                                                                           
+PublisherCity Interactive                                -4.410***         
+                                                          (1.295)          
+                                                                           
+PublisherCleverweek                                      -4.817***         
+                                                          (1.415)          
+                                                                           
+PublisherCodemasters                                     -4.105***         
+                                                          (1.280)          
+                                                                           
+PublisherComfort                                         -5.290***         
+                                                          (1.419)          
+                                                                           
+PublisherCompile Heart                                   -6.017***         
+                                                          (1.306)          
+                                                                           
+PublisherConspiracy Entertainment                        -5.107***         
+                                                          (1.335)          
+                                                                           
+PublisherCrave Entertainment                             -5.043***         
+                                                          (1.287)          
+                                                                           
+PublisherCyberFront                                      -6.242***         
+                                                          (1.323)          
+                                                                           
+PublisherD3 Publisher                                    -4.972***         
+                                                          (1.276)          
+                                                                           
+PublisherD3Publisher                                     -5.627***         
+                                                          (1.288)          
+                                                                           
+PublisherDaedalic Entertainment                          -4.159***         
+                                                          (1.317)          
+                                                                           
+PublisherDagestan Technology                             -4.504***         
+                                                          (1.367)          
+                                                                           
+PublisherDeep Silver                                     -4.797***         
+                                                          (1.273)          
+                                                                           
+PublisherDestineer                                       -5.552***         
+                                                          (1.297)          
+                                                                           
+PublisherDevolver Digital                                -4.130***         
+                                                          (1.307)          
+                                                                           
+PublisherDisney Interactive Studios                      -3.771***         
+                                                          (1.274)          
+                                                                           
+PublisherDL Softworks                                    -4.214***         
+                                                          (1.415)          
+                                                                           
+PublisherDouble Fine Productions                         -3.852***         
+                                                          (1.386)          
+                                                                           
+PublisherDovetail Games                                  -5.630***         
+                                                          (1.460)          
+                                                                           
+PublisherDramatic Create                                 -5.796***         
+                                                          (1.325)          
+                                                                           
+PublisherDreamCatcher Interactive                        -4.990***         
+                                                          (1.343)          
+                                                                           
+PublisherDTP Entertainment                               -6.149***         
+                                                          (1.327)          
+                                                                           
+PublisherEA Sports                                       -3.066**          
+                                                          (1.271)          
+                                                                           
+PublisherElectronic Arts                                 -3.588***         
+                                                          (1.268)          
+                                                                           
+PublisherEntergram                                       -6.066***         
+                                                          (1.370)          
+                                                                           
+PublisherEQ Games                                        -4.576***         
+                                                          (1.461)          
+                                                                           
+PublisherEuroVideo Medien                                -5.146***         
+                                                          (1.414)          
+                                                                           
+PublisherExcalibur Publishing                            -6.031***         
+                                                          (1.459)          
+                                                                           
+PublisherExcalibur Publishing Limited                    -5.552***         
+                                                          (1.459)          
+                                                                           
+PublisherExperience Inc.                                 -5.927***         
+                                                          (1.416)          
+                                                                           
+PublisherFalcom Corporation                              -5.371***         
+                                                          (1.368)          
+                                                                           
+PublisherFDG Entertainment                               -5.866***         
+                                                          (1.462)          
+                                                                           
+PublisherFocus Home Interactive                          -5.005***         
+                                                          (1.273)          
+                                                                           
+PublisherFocus Multimedia                                -7.046***         
+                                                          (1.386)          
+                                                                           
+PublisherFrontier Developments                           -3.388**          
+                                                          (1.351)          
+                                                                           
+PublisherFunbox Media                                    -5.955***         
+                                                          (1.415)          
+                                                                           
+PublisherFuRyu Corporation                               -5.673***         
+                                                          (1.289)          
+                                                                           
+PublisherGaijinworks                                     -4.916***         
+                                                          (1.463)          
+                                                                           
+PublisherGameMill                                        -4.761***         
+                                                          (1.295)          
+                                                                           
+PublisherGameMill Entertainment                          -5.487***         
+                                                          (1.301)          
+                                                                           
+PublisherGames Workshop                                  -5.080***         
+                                                          (1.462)          
+                                                                           
+PublisherGameTrust                                       -5.500***         
+                                                          (1.387)          
+                                                                           
+PublisherGearbox Software                                -4.895***         
+                                                          (1.296)          
+                                                                           
+PublisherGrabTheGames                                    -4.093***         
+                                                          (1.416)          
+                                                                           
+PublisherGraffiti                                        -5.972***         
+                                                          (1.343)          
+                                                                           
+PublisherGrey Box                                        -4.413***         
+                                                          (1.415)          
+                                                                           
+PublisherGSP                                             -5.227***         
+                                                          (1.343)          
+                                                                           
+PublisherGungHo                                          -6.346***         
+                                                          (1.550)          
+                                                                           
+PublisherGust                                            -5.277***         
+                                                          (1.387)          
+                                                                           
+PublisherH2 Interactive Co., Ltd.                        -5.705***         
+                                                          (1.463)          
+                                                                           
+PublisherHappinet                                        -5.514***         
+                                                          (1.388)          
+                                                                           
+PublisherHeadup Games                                    -4.956***         
+                                                          (1.414)          
+                                                                           
+Publisherhoneybee                                        -6.129***         
+                                                          (1.790)          
+                                                                           
+PublisherHudson Soft                                     -4.767***         
+                                                          (1.301)          
+                                                                           
+PublisherHumaNature Studios                              -7.074***         
+                                                          (1.417)          
+                                                                           
+PublisherHuneX                                           -5.782***         
+                                                          (1.552)          
+                                                                           
+PublisherIceberg Interactive                             -4.259***         
+                                                          (1.551)          
+                                                                           
+PublisherIdea Factory                                    -5.541***         
+                                                          (1.275)          
+                                                                           
+PublisherIdea Factory International                      -5.325***         
+                                                          (1.308)          
+                                                                           
+PublisherIgnition Entertainment                          -5.302***         
+                                                          (1.328)          
+                                                                           
+PublisherInsomniac Games                                 -5.097***         
+                                                          (1.462)          
+                                                                           
+PublisherIrem Software Engineering                       -6.181***         
+                                                          (1.387)          
+                                                                           
+PublisherJetdogs Studios                                 -4.545***         
+                                                          (1.462)          
+                                                                           
+PublisherKadokawa Games                                  -6.197***         
+                                                          (1.318)          
+                                                                           
+PublisherKadokawa Shoten                                 -5.243***         
+                                                          (1.293)          
+                                                                           
+PublisherKaga Create                                     -5.688***         
+                                                          (1.463)          
+                                                                           
+PublisherKalypso                                         -5.478***         
+                                                          (1.302)          
+                                                                           
+PublisherKalypso Media                                   -5.818***         
+                                                          (1.283)          
+                                                                           
+PublisherKiss                                            -4.984***         
+                                                          (1.385)          
+                                                                           
+PublisherKoch Media                                      -5.376***         
+                                                          (1.313)          
+                                                                           
+PublisherKOEI                                            -5.296***         
+                                                          (1.311)          
+                                                                           
+PublisherKoei Tecmo                                      -5.713***         
+                                                          (1.299)          
+                                                                           
+PublisherKonami                                          -4.422***         
+                                                          (1.271)          
+                                                                           
+PublisherKonami Digital Entertainment                    -4.381***         
+                                                          (1.272)          
+                                                                           
+PublisherLevel 5                                         -4.041***         
+                                                          (1.290)          
+                                                                           
+PublisherLittle Orbit                                    -5.760***         
+                                                          (1.286)          
+                                                                           
+PublisherLucasArts                                       -3.268**          
+                                                          (1.311)          
+                                                                           
+PublisherMajesco                                         -4.512***         
+                                                          (1.280)          
+                                                                           
+PublisherMajesco Entertainment                           -4.831***         
+                                                          (1.415)          
+                                                                           
+PublisherMarvelous                                       -4.269***         
+                                                          (1.414)          
+                                                                           
+PublisherMarvelous Entertainment                         -4.903***         
+                                                          (1.387)          
+                                                                           
+PublisherMarvelous Interactive                           -5.366***         
+                                                          (1.322)          
+                                                                           
+PublisherMastertronic                                    -6.650***         
+                                                          (1.415)          
+                                                                           
+PublisherMastiff                                         -5.346***         
+                                                          (1.314)          
+                                                                           
+PublisherMaximum Games                                   -5.622***         
+                                                          (1.282)          
+                                                                           
+PublisherMentor Interactive                              -6.084***         
+                                                          (1.416)          
+                                                                           
+PublisherMerge Games                                     -6.169***         
+                                                          (1.329)          
+                                                                           
+PublisherMicroids                                        -6.152***         
+                                                          (1.312)          
+                                                                           
+PublisherMicrosoft Studios                               -3.045**          
+                                                          (1.277)          
+                                                                           
+PublisherMilestone                                       -5.576***         
+                                                          (1.462)          
+                                                                           
+PublisherMilestone S.r.l                                 -5.279***         
+                                                          (1.369)          
+                                                                           
+PublisherMilestone S.r.l.                                -5.485***         
+                                                          (1.303)          
+                                                                           
+PublisherMilkstone Studios                               -5.530***         
+                                                          (1.414)          
+                                                                           
+PublisherMindscape                                       -4.590***         
+                                                          (1.463)          
+                                                                           
+PublisherMLB Advanced Media                              -4.795***         
+                                                          (1.463)          
+                                                                           
+PublisherMLB.com                                         -5.499***         
+                                                          (1.388)          
+                                                                           
+PublisherMojang                                           -2.217*          
+                                                          (1.344)          
+                                                                           
+PublisherMTV Games                                       -3.982***         
+                                                          (1.329)          
+                                                                           
+PublisherMumbo Jumbo                                     -4.776***         
+                                                          (1.355)          
+                                                                           
+PublisherNamco Bandai                                    -4.524***         
+                                                          (1.271)          
+                                                                           
+PublisherNamco Bandai Games                              -4.705***         
+                                                          (1.268)          
+                                                                           
+PublisherNatsume                                         -4.220***         
+                                                          (1.294)          
+                                                                           
+PublisherNeocore Games                                   -5.898***         
+                                                          (1.462)          
+                                                                           
+PublisherNew Reality Games                               -4.290***         
+                                                          (1.461)          
+                                                                           
+PublisherNicalis                                         -5.198***         
+                                                          (1.336)          
+                                                                           
+PublisherNighthawk Interactive                           -5.852***         
+                                                          (1.305)          
+                                                                           
+PublisherNihon Falcom Corporation                        -5.877***         
+                                                          (1.462)          
+                                                                           
+PublisherNintendo                                         -2.352*          
+                                                          (1.269)          
+                                                                           
+PublisherNippon Columbia                                 -4.869***         
+                                                          (1.306)          
+                                                                           
+PublisherNippon Ichi Software                            -6.128***         
+                                                          (1.292)          
+                                                                           
+PublisherNIS America                                     -5.348***         
+                                                          (1.273)          
+                                                                           
+PublisherNordic Games                                    -5.515***         
+                                                          (1.287)          
+                                                                           
+PublisherO_Games                                         -5.501***         
+                                                          (1.300)          
+                                                                           
+PublisherOthers                                          -4.589***         
+                                                          (1.266)          
+                                                                           
+PublisherOutright Games                                  -6.119***         
+                                                          (1.309)          
+                                                                           
+PublisherParadox Interactive                             -5.042***         
+                                                          (1.284)          
+                                                                           
+PublisherParamount Digital Entertainment                 -4.735***         
+                                                          (1.416)          
+                                                                           
+PublisherPiacci                                          -6.185***         
+                                                          (1.551)          
+                                                                           
+PublisherPopCap Games                                    -4.507***         
+                                                          (1.323)          
+                                                                           
+PublisherPQube                                           -5.904***         
+                                                          (1.296)          
+                                                                           
+PublisherPrototype                                       -5.596***         
+                                                          (1.316)          
+                                                                           
+PublisherPUBG Corporation                                  0.304           
+                                                          (1.789)          
+                                                                           
+PublisherPuppy Games                                     -3.606**          
+                                                          (1.789)          
+                                                                           
+PublisherQCF Design                                      -5.117***         
+                                                          (1.789)          
+                                                                           
+PublisherQuaint Emerald                                  -4.778***         
+                                                          (1.790)          
+                                                                           
+PublisherQuantic Dream                                    -1.337           
+                                                          (1.789)          
+                                                                           
+PublisherQuinrose                                        -5.922***         
+                                                          (1.325)          
+                                                                           
+PublisherQute                                            -8.026***         
+                                                          (1.790)          
+                                                                           
+PublisherRailSimulator.com                               -7.223***         
+                                                          (1.787)          
+                                                                           
+PublisherRain Games                                      -6.273***         
+                                                          (1.551)          
+                                                                           
+PublisherRainbow Games                                   -4.560***         
+                                                          (1.461)          
+                                                                           
+PublisherRe_Logic                                         -1.575           
+                                                          (1.550)          
+                                                                           
+PublisherReady at Dawn                                   -6.369***         
+                                                          (1.461)          
+                                                                           
+PublisherReal Dynamics                                   -3.908**          
+                                                          (1.790)          
+                                                                           
+PublisherRebellion                                       -7.199***         
+                                                          (1.551)          
+                                                                           
+PublisherRebellion Developments                          -4.997***         
+                                                          (1.335)          
+                                                                           
+PublisherRebellion Games                                 -5.548***         
+                                                          (1.550)          
+                                                                           
+PublisherRED Entertainment                               -5.725***         
+                                                          (1.554)          
+                                                                           
+PublisherRed Hook Studios                                -3.893***         
+                                                          (1.461)          
+                                                                           
+PublisherReef Entertainment                              -6.008***         
+                                                          (1.387)          
+                                                                           
+PublisherRejet                                           -6.129***         
+                                                          (1.790)          
+                                                                           
+PublisherRemedy Entertainment                             -2.159           
+                                                          (1.789)          
+                                                                           
+PublisherRetro Affect                                    -5.123***         
+                                                          (1.790)          
+                                                                           
+PublisherReverb Triple XP                                -5.416***         
+                                                          (1.789)          
+                                                                           
+PublisherRevolution Software                             -5.051***         
+                                                          (1.550)          
+                                                                           
+PublisherRising Star                                     -6.145***         
+                                                          (1.368)          
+                                                                           
+PublisherRising Star Games                               -6.031***         
+                                                          (1.303)          
+                                                                           
+PublisherRock Path Collective                            -4.748***         
+                                                          (1.790)          
+                                                                           
+PublisherRocket Company                                  -5.418***         
+                                                          (1.329)          
+                                                                           
+PublisherRockfish Games                                  -4.395**          
+                                                          (1.789)          
+                                                                           
+PublisherRockstar Games                                   -2.411*          
+                                                          (1.291)          
+                                                                           
+PublisherRombax Games                                    -5.823***         
+                                                          (1.790)          
+                                                                           
+PublisherRondomedia                                      -5.448***         
+                                                          (1.386)          
+                                                                           
+PublisherRooster Teeth Games                             -4.121***         
+                                                          (1.465)          
+                                                                           
+PublisherRunic Games                                      -1.898           
+                                                          (1.789)          
+                                                                           
+PublisherRussel                                          -6.070***         
+                                                          (1.417)          
+                                                                           
+PublisherRusty Lake                                      -4.556**          
+                                                          (1.789)          
+                                                                           
+PublisherS2 Games                                         -3.215*          
+                                                          (1.790)          
+                                                                           
+PublisherSam Barlow                                       -3.320*          
+                                                          (1.789)          
+                                                                           
+PublisherScholastic Inc.                                 -3.963***         
+                                                          (1.388)          
+                                                                           
+PublisherScreen 7                                        -4.217**          
+                                                          (1.789)          
+                                                                           
+PublisherScreenwave Media                                -4.922***         
+                                                          (1.788)          
+                                                                           
+PublisherSCS Software                                    -4.171***         
+                                                          (1.384)          
+                                                                           
+PublisherSecret Exit Ltd.                                -4.644***         
+                                                          (1.791)          
+                                                                           
+PublisherSega                                            -4.110***         
+                                                          (1.269)          
+                                                                           
+PublisherSeragam                                         -4.609**          
+                                                          (1.790)          
+                                                                           
+PublisherShin'en                                         -6.470***         
+                                                          (1.794)          
+                                                                           
+PublisherShiro Games                                     -3.935**          
+                                                          (1.550)          
+                                                                           
+PublisherShogakukan                                      -5.083***         
+                                                          (1.790)          
+                                                                           
+PublisherSiberian Digital                                -4.665***         
+                                                          (1.415)          
+                                                                           
+PublisherSidhe Interactive                               -4.820***         
+                                                          (1.550)          
+                                                                           
+PublisherSilver Dollar Games                              -3.240*          
+                                                          (1.790)          
+                                                                           
+PublisherSka Studios                                     -3.808**          
+                                                          (1.789)          
+                                                                           
+PublisherSkybound Games                                  -5.153***         
+                                                          (1.414)          
+                                                                           
+PublisherSlitherine Software                             -4.746***         
+                                                          (1.791)          
+                                                                           
+PublisherSluggerfly                                      -5.036***         
+                                                          (1.790)          
+                                                                           
+PublisherSmudged Cat Games                               -5.165***         
+                                                          (1.790)          
+                                                                           
+PublisherSnail Games USA                                 -5.341***         
+                                                          (1.790)          
+                                                                           
+PublisherSNK                                             -5.151***         
+                                                          (1.789)          
+                                                                           
+PublisherSNK Playmore                                    -6.321***         
+                                                          (1.555)          
+                                                                           
+PublisherSoedesco                                        -6.235***         
+                                                          (1.307)          
+                                                                           
+PublisherSold Out                                        -5.600***         
+                                                          (1.307)          
+                                                                           
+PublisherSometimes You                                   -3.707**          
+                                                          (1.790)          
+                                                                           
+PublisherSony Computer Entertainment                     -3.823***         
+                                                          (1.271)          
+                                                                           
+PublisherSony Computer Entertainment America             -2.977**          
+                                                          (1.298)          
+                                                                           
+PublisherSony Computer Entertainment Europe              -6.726***         
+                                                          (1.551)          
+                                                                           
+PublisherSony Interactive Entertainment                  -3.557***         
+                                                          (1.281)          
+                                                                           
+PublisherSony Online Entertainment                       -5.705***         
+                                                          (1.789)          
+                                                                           
+PublisherSorath                                          -5.441***         
+                                                          (1.789)          
+                                                                           
+PublisherSouthPeak Games                                 -6.341***         
+                                                          (1.791)          
+                                                                           
+PublisherSouthPeak Interactive                           -4.932***         
+                                                          (1.294)          
+                                                                           
+PublisherSpace Boat Studios                              -5.076***         
+                                                          (1.788)          
+                                                                           
+PublisherSpiderweb Software                              -5.116***         
+                                                          (1.788)          
+                                                                           
+PublisherSpike                                           -4.663***         
+                                                          (1.336)          
+                                                                           
+PublisherSpike Chunsoft                                  -5.090***         
+                                                          (1.318)          
+                                                                           
+PublisherSquare Enix                                     -3.846***         
+                                                          (1.270)          
+                                                                           
+PublisherStainless Games                                 -6.526***         
+                                                          (1.550)          
+                                                                           
+PublisherStardock                                        -4.765***         
+                                                          (1.462)          
+                                                                           
+PublisherStarfish                                        -6.393***         
+                                                          (1.416)          
+                                                                           
+PublisherStarSystemStudios                               -5.179***         
+                                                          (1.789)          
+                                                                           
+PublisherSting                                           -5.937***         
+                                                          (1.790)          
+                                                                           
+PublisherStorm City Games                                -5.553***         
+                                                          (1.295)          
+                                                                           
+PublisherStrategy First                                  -5.800***         
+                                                          (1.551)          
+                                                                           
+PublisherStudio Artdink                                  -6.870***         
+                                                          (1.789)          
+                                                                           
+PublisherStudio MDHR                                      -2.402           
+                                                          (1.788)          
+                                                                           
+PublisherStudio Pixel                                     -3.495*          
+                                                          (1.790)          
+                                                                           
+PublisherStudio Wildcard                                 -3.166**          
+                                                          (1.416)          
+                                                                           
+PublisherStunlock Studios                                 -1.951           
+                                                          (1.790)          
+                                                                           
+PublisherSuccess                                         -5.905***         
+                                                          (1.463)          
+                                                                           
+PublisherSunight Games                                   -4.913***         
+                                                          (1.550)          
+                                                                           
+PublisherSUPERHOT Team                                   -4.168***         
+                                                          (1.550)          
+                                                                           
+PublisherSVG Distribution                                -6.371***         
+                                                          (1.462)          
+                                                                           
+PublisherSynnergy Circle Games                           -5.018***         
+                                                          (1.790)          
+                                                                           
+PublisherSystem 3                                        -6.725***         
+                                                          (1.463)          
+                                                                           
+PublisherSystem Soft                                     -6.480***         
+                                                          (1.417)          
+                                                                           
+PublisherTaito                                           -6.834***         
+                                                          (1.549)          
+                                                                           
+PublisherTakara Tomy                                     -5.357***         
+                                                          (1.328)          
+                                                                           
+PublisherTake_Two Interactive                            -4.053***         
+                                                          (1.329)          
+                                                                           
+PublisherTakuyo                                          -6.293***         
+                                                          (1.790)          
+                                                                           
+PublisherTeam 17                                         -3.171**          
+                                                          (1.548)          
+                                                                           
+Publisherteam BitClub                                    -5.007***         
+                                                          (1.789)          
+                                                                           
+PublisherTeam Cherry                                     -3.697**          
+                                                          (1.551)          
+                                                                           
+PublisherTEAM HORAY                                      -4.787***         
+                                                          (1.789)          
+                                                                           
+PublisherTeam Indev                                      -5.070***         
+                                                          (1.790)          
+                                                                           
+PublisherTeam Meat                                       -7.664***         
+                                                          (1.790)          
+                                                                           
+PublisherTeam17 Digital Ltd                              -4.543***         
+                                                          (1.415)          
+                                                                           
+PublisherTeam17 Software                                 -4.752***         
+                                                          (1.334)          
+                                                                           
+PublisherTechland                                        -6.651***         
+                                                          (1.415)          
+                                                                           
+PublisherTecmo                                           -4.004***         
+                                                          (1.550)          
+                                                                           
+PublisherTecmo Koei                                      -5.154***         
+                                                          (1.270)          
+                                                                           
+PublisherTelegames                                       -3.865**          
+                                                          (1.790)          
+                                                                           
+PublisherTelltale Games                                  -4.361***         
+                                                          (1.282)          
+                                                                           
+PublisherTeotl Studios                                   -4.167**          
+                                                          (1.789)          
+                                                                           
+PublisherTequila Works                                   -5.035***         
+                                                          (1.790)          
+                                                                           
+PublisherTerrible Posture Games LLC                      -5.157***         
+                                                          (1.789)          
+                                                                           
+PublisherTerry Cavanagh                                   -3.242*          
+                                                          (1.790)          
+                                                                           
+PublisherTGL                                             -4.891***         
+                                                          (1.464)          
+                                                                           
+PublisherThe Adventure Company                           -6.806***         
+                                                          (1.788)          
+                                                                           
+PublisherThe Astronauts                                   -3.273*          
+                                                          (1.789)          
+                                                                           
+PublisherThe Behemoth                                     -2.655*          
+                                                          (1.549)          
+                                                                           
+PublisherThe Farm 51                                     -5.703***         
+                                                          (1.789)          
+                                                                           
+PublisherThe Fun Pimps                                    -1.578           
+                                                          (1.788)          
+                                                                           
+PublisherThe Irregular Corporation                       -4.176**          
+                                                          (1.787)          
+                                                                           
+PublisherThekla, Inc.                                     -2.993*          
+                                                          (1.790)          
+                                                                           
+PublisherThinkOfGames                                    -4.531***         
+                                                          (1.417)          
+                                                                           
+PublisherThomas Happ Games                               -5.446***         
+                                                          (1.416)          
+                                                                           
+PublisherThose Awesome Guys                              -4.920***         
+                                                          (1.786)          
+                                                                           
+PublisherTHQ                                             -4.031***         
+                                                          (1.271)          
+                                                                           
+PublisherTHQ Nordic                                      -5.928***         
+                                                          (1.277)          
+                                                                           
+PublisherTinyBuild Games                                 -4.292***         
+                                                          (1.460)          
+                                                                           
+PublisherToby Fox                                        -5.464***         
+                                                          (1.462)          
+                                                                           
+PublisherTommo                                           -5.927***         
+                                                          (1.790)          
+                                                                           
+PublisherTomy Corporation                                -4.138**          
+                                                          (1.788)          
+                                                                           
+PublisherTopWare Interactive                             -6.064***         
+                                                          (1.549)          
+                                                                           
+PublisherTranshuman Design                               -3.953**          
+                                                          (1.788)          
+                                                                           
+PublisherTrapdoor                                         -2.668           
+                                                          (1.789)          
+                                                                           
+PublisherTreasure                                        -5.179***         
+                                                          (1.789)          
+                                                                           
+PublisherTrendy Entertainment                            -3.479**          
+                                                          (1.550)          
+                                                                           
+PublisherTREVA Entertainment                             -5.647***         
+                                                          (1.549)          
+                                                                           
+PublisherTrickjump Games Ltd                             -4.538**          
+                                                          (1.789)          
+                                                                           
+PublisherTrion Worlds                                    -4.733***         
+                                                          (1.415)          
+                                                                           
+PublisherTripwire Interactive                            -4.693***         
+                                                          (1.367)          
+                                                                           
+PublisherTriternion                                       -2.799           
+                                                          (1.789)          
+                                                                           
+PublisherTriumph Studios                                  -2.697           
+                                                          (1.790)          
+                                                                           
+PublisherTru Blu Entertainment                           -6.539***         
+                                                          (1.329)          
+                                                                           
+PublisherTulip Games                                     -5.621***         
+                                                          (1.553)          
+                                                                           
+PublisherTwo Tribes                                      -3.828***         
+                                                          (1.463)          
+                                                                           
+PublisherU&I Entertainment                               -6.609***         
+                                                          (1.552)          
+                                                                           
+PublisherUbisoft                                         -4.055***         
+                                                          (1.268)          
+                                                                           
+PublisherUFO Interactive                                 -5.626***         
+                                                          (1.311)          
+                                                                           
+PublisherUIG Entertainment                               -6.772***         
+                                                          (1.548)          
+                                                                           
+PublisherUnbalance                                       -5.004***         
+                                                          (1.789)          
+                                                                           
+PublisherUnfinished Pixel                                -5.411***         
+                                                          (1.462)          
+                                                                           
+PublisherUnknown                                         -5.121***         
+                                                          (1.272)          
+                                                                           
+PublisherUnknown Worlds Entertainment                     -1.042           
+                                                          (1.789)          
+                                                                           
+PublisherUppercut Games Pty Ltd                          -4.356**          
+                                                          (1.789)          
+                                                                           
+PublisherVaka Game Magazine                              -5.300***         
+                                                          (1.790)          
+                                                                           
+PublisherValcon Games                                    -5.459***         
+                                                          (1.416)          
+                                                                           
+PublisherValuSoft                                        -5.153***         
+                                                          (1.550)          
+                                                                           
+PublisherValve                                            -1.424           
+                                                          (1.416)          
+                                                                           
+PublisherValve Corporation                               -3.858**          
+                                                          (1.789)          
+                                                                           
+PublisherVersus Evil                                     -4.750***         
+                                                          (1.550)          
+                                                                           
+PublisherVertigo Gaming Inc.                             -4.205***         
+                                                          (1.547)          
+                                                                           
+PublisherVilla Gorilla                                   -7.085***         
+                                                          (1.462)          
+                                                                           
+PublisherVirtual Play Games                              -5.630***         
+                                                          (1.462)          
+                                                                           
+PublisherVisco                                           -7.208***         
+                                                          (1.789)          
+                                                                           
+PublisherViva Media                                      -5.537***         
+                                                          (1.386)          
+                                                                           
+PublisherVivid Games S.A.                                -4.685***         
+                                                          (1.786)          
+                                                                           
+PublisherW!Games                                         -4.352**          
+                                                          (1.790)          
+                                                                           
+PublisherWadjet Eye Games                                -4.137**          
+                                                          (1.789)          
+                                                                           
+PublisherWales Interactive Ltd.                          -4.356**          
+                                                          (1.789)          
+                                                                           
+PublisherWalter Machado                                  -5.059***         
+                                                          (1.789)          
+                                                                           
+PublisherWargaming.net                                   -5.417***         
+                                                          (1.550)          
+                                                                           
+PublisherWarhorse Studios                                 -2.797           
+                                                          (1.789)          
+                                                                           
+PublisherWarner Bros. Interactive                        -3.794***         
+                                                          (1.275)          
+                                                                           
+PublisherWarner Bros. Interactive Entertainment          -3.579***         
+                                                          (1.270)          
+                                                                           
+PublisherWAX Publishing                                  -5.169***         
+                                                          (1.789)          
+                                                                           
+PublisherWay Forward                                     -4.955***         
+                                                          (1.790)          
+                                                                           
+PublisherWayForward                                      -4.829***         
+                                                          (1.790)          
+                                                                           
+PublisherWayForward Technologies                         -4.874***         
+                                                          (1.552)          
+                                                                           
+PublisherWhat Pumpkin Games, Inc.                        -4.409**          
+                                                          (1.789)          
+                                                                           
+PublisherWhite Dog                                       -3.628**          
+                                                          (1.789)          
+                                                                           
+PublisherWinged Cloud                                    -5.099***         
+                                                          (1.789)          
+                                                                           
+PublisherWired Productions                               -6.509***         
+                                                          (1.343)          
+                                                                           
+PublisherWizards of the Coast                            -3.587**          
+                                                          (1.551)          
+                                                                           
+PublisherWolfgangIs                                      -4.186**          
+                                                          (1.789)          
+                                                                           
+PublisherWube Software LTD.                               -1.611           
+                                                          (1.789)          
+                                                                           
+PublisherXbox Game Studios                                -2.566           
+                                                          (1.787)          
+                                                                           
+PublisherXS Games                                        -4.073**          
+                                                          (1.790)          
+                                                                           
+PublisherXseed Games                                     -4.668***         
+                                                          (1.276)          
+                                                                           
+PublisherYacht Club Games                                -4.207***         
+                                                          (1.355)          
+                                                                           
+PublisherYeti                                            -5.615***         
+                                                          (1.388)          
+                                                                           
+PublisherYsbryd Games                                     -3.353*          
+                                                          (1.789)          
+                                                                           
+PublisherYuPlay                                          -4.555**          
+                                                          (1.787)          
+                                                                           
+PublisherZachtronics Industries                          -4.707***         
+                                                          (1.789)          
+                                                                           
+PublisherZackBellGames                                   -5.174***         
+                                                          (1.789)          
+                                                                           
+PublisherZodiac Interactive                              -3.993**          
+                                                          (1.790)          
+                                                                           
+PublisherZoo Games                                       -5.570***         
+                                                          (1.286)          
+                                                                           
+PublisherZOV GAME STUDIO                                 -5.111***         
+                                                          (1.788)          
+                                                                           
+GenreAction-Adventure                                    0.250***          
+                                                          (0.082)          
+                                                                           
+GenreAdventure                                           -0.650***         
+                                                          (0.066)          
+                                                                           
+GenreFighting                                              0.093           
+                                                          (0.085)          
+                                                                           
+GenreMisc                                                -0.404***         
+                                                          (0.067)          
+                                                                           
+GenrePlatform                                              0.064           
+                                                          (0.084)          
+                                                                           
+GenrePuzzle                                              -0.467***         
+                                                          (0.100)          
+                                                                           
+GenreRacing                                              -0.371***         
+                                                          (0.082)          
+                                                                           
+GenreRole-Playing                                         0.145**          
+                                                          (0.061)          
+                                                                           
+GenreShooter                                             0.392***          
+                                                          (0.069)          
+                                                                           
+GenreSimulation                                          -0.286***         
+                                                          (0.076)          
+                                                                           
+GenreSports                                               -0.110           
+                                                          (0.069)          
+                                                                           
+GenreStrategy                                            -0.324***         
+                                                          (0.087)          
+                                                                           
+ReleaseQuarter                                           0.052***          
+                                                          (0.014)          
+                                                                           
+ReleaseWeekendWeekend                                     0.104**          
+                                                          (0.041)          
+                                                                           
+Constant                                                 16.031***         
+                                                          (1.268)          
+                                                                           
+---------------------------------------------------------------------------
+Observations                                               7,222           
+R2                                                         0.400           
+Adjusted R2                                                0.369           
+Residual Std. Error                                  1.263 (df = 6867)     
+F Statistic                                     12.950*** (df = 354; 6867) 
+===========================================================================
+Note:                                           *p<0.1; **p<0.05; ***p<0.01
