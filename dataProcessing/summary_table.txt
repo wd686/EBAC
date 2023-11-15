@@ -21,14 +21,14 @@ PlatformPS3                                 0.628***                  0.258     
 PlatformPS4                                  0.464**                  0.124                   0.158                   0.024         
                                              (0.235)                 (0.231)                 (0.661)                 (0.683)        
                                                                                                                                     
-GenrePuzzle                                  0.491**                  0.326                   0.432                   0.536         
-                                             (0.218)                 (0.225)                 (0.646)                 (0.666)        
-                                                                                                                                    
 GenreAdventure                              0.608***                0.550***                  0.801                   0.930         
                                              (0.180)                 (0.184)                 (0.631)                 (0.651)        
                                                                                                                                     
 GenreBoard Game                              -0.507                  -0.591                  -0.253                  -0.292         
                                              (0.866)                 (0.876)                 (0.857)                 (0.886)        
+                                                                                                                                    
+GenrePuzzle                                  0.491**                  0.326                   0.432                   0.536         
+                                             (0.218)                 (0.225)                 (0.646)                 (0.666)        
                                                                                                                                     
 GenreRacing                                  0.350**                  0.259                   1.009                  1.771**        
                                              (0.170)                 (0.176)                 (0.847)                 (0.855)        
@@ -42,23 +42,23 @@ GenreSimulation                               0.125                   0.038     
 GenreSports                                   0.078                  -0.001                   1.639                   1.467         
                                              (0.165)                 (0.172)                 (1.010)                 (1.044)        
                                                                                                                                     
-PublisherSony Computer Entertainment          0.066                   0.023                                           0.041         
-                                             (0.129)                 (0.131)                                         (0.132)        
-                                                                                                                                    
-PublisherOmega                                0.129                   0.068                                           0.101         
-                                             (0.147)                 (0.149)                                         (0.147)        
-                                                                                                                                    
 PublisherActivision                          0.228**                 0.182*                                          0.192*         
                                              (0.108)                 (0.110)                                         (0.109)        
-                                                                                                                                    
-PublisherIBM                                 0.310**                 0.272*                                          0.363**        
-                                             (0.155)                 (0.156)                                         (0.152)        
                                                                                                                                     
 PublisherAmazon Game Studios                  0.020                  -0.003                                           0.098         
                                              (0.154)                 (0.156)                                         (0.155)        
                                                                                                                                     
 PublisherFrontier Developments               0.208*                   0.174                                           0.155         
                                              (0.118)                 (0.119)                                         (0.118)        
+                                                                                                                                    
+PublisherIBM                                 0.310**                 0.272*                                          0.363**        
+                                             (0.155)                 (0.156)                                         (0.152)        
+                                                                                                                                    
+PublisherOmega                                0.129                   0.068                                           0.101         
+                                             (0.147)                 (0.149)                                         (0.147)        
+                                                                                                                                    
+PublisherSony Computer Entertainment          0.066                   0.023                                           0.041         
+                                             (0.129)                 (0.131)                                         (0.132)        
                                                                                                                                     
 PublisherUbisoft                              0.091                   0.040                                           0.082         
                                              (0.120)                 (0.121)                                         (0.117)        
@@ -174,21 +174,6 @@ TopDeveloper_CountUbisoft                                            0.754*
 TopDeveloper_CountVisualConcepts                                     0.745*                                                         
                                                                      (0.390)                                                        
                                                                                                                                     
-PlatformPC:GenrePuzzle                                                                        0.489                   0.435         
-                                                                                             (0.900)                 (0.930)        
-                                                                                                                                    
-PlatformPS:GenrePuzzle                                                                                                              
-                                                                                                                                    
-                                                                                                                                    
-PlatformPS2:GenrePuzzle                                                                      -1.451*                 -1.341         
-                                                                                             (0.797)                 (0.818)        
-                                                                                                                                    
-PlatformPS3:GenrePuzzle                                                                      2.558**                 2.306**        
-                                                                                             (1.073)                 (1.106)        
-                                                                                                                                    
-PlatformPS4:GenrePuzzle                                                                       0.862                   0.871         
-                                                                                             (1.093)                 (1.134)        
-                                                                                                                                    
 PlatformPC:GenreAdventure                                                                     0.030                  -0.096         
                                                                                              (0.868)                 (0.900)        
                                                                                                                                     
@@ -218,6 +203,21 @@ PlatformPS3:GenreBoard Game
                                                                                                                                     
 PlatformPS4:GenreBoard Game                                                                                                         
                                                                                                                                     
+                                                                                                                                    
+PlatformPC:GenrePuzzle                                                                        0.489                   0.435         
+                                                                                             (0.900)                 (0.930)        
+                                                                                                                                    
+PlatformPS:GenrePuzzle                                                                                                              
+                                                                                                                                    
+                                                                                                                                    
+PlatformPS2:GenrePuzzle                                                                      -1.451*                 -1.341         
+                                                                                             (0.797)                 (0.818)        
+                                                                                                                                    
+PlatformPS3:GenrePuzzle                                                                      2.558**                 2.306**        
+                                                                                             (1.073)                 (1.106)        
+                                                                                                                                    
+PlatformPS4:GenrePuzzle                                                                       0.862                   0.871         
+                                                                                             (1.093)                 (1.134)        
                                                                                                                                     
 PlatformPC:GenreRacing                                                                       -0.355                  -1.213         
                                                                                              (1.038)                 (1.054)        
