@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-from commonFunctions import hist, detailSummary
+# from commonFunctions import hist, detailSummary
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
