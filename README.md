@@ -1,17 +1,16 @@
-# Predictive Analytics - Insights of Trends & Irregularities
-## EBA5002 - Practice Project
-## Title: PLACEHOLDER
+# EBA5002 - Practice Project
+## Title: From Pixels to Profits: Analyzing the Gaming Industry
 
 ---
 
 ## Members:
-| Official Full Name  | Student ID | Email |
-| :------------ |:---------------:| :-----|
-| Ang Mei Chi | AXXXXXXXA | eXXXXXXX@u.nus.edu |
-| Lew Kuan Teng Roy | AXXXXXXXA | eXXXXXXX@u.nus.edu |
-| Liu Wudi | AXXXXXXXA | eXXXXXXX@u.nus.edu |
-| Michael Wong Wait Kit | AXXXXXXXA | eXXXXXXX@u.nus.edu |
-| Ong Wee Yang | AXXXXXXXA | eXXXXXXX@u.nus.edu |
+| Official Full Name  |
+| :------------ |
+| Ang Mei Chi |
+| Lew Kuan Teng Roy |
+| Liu Wudi |
+| Michael Wong Wait Kit |
+| Ong Wee Yang |
 
 ---
 
