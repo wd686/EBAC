@@ -4,13 +4,13 @@
 ---
 
 ## Members:
-| Official Full Name  |
-| :------------ |
-| Ang Mei Chi |
-| Lew Kuan Teng Roy |
-| Liu Wudi |
-| Michael Wong Wait Kit |
-| Ong Wee Yang |
+| Official Full Name  | Email |
+| :------------ |:-----|
+| Ang Mei Chi | e1114072@u.nus.edu |
+| Lew Kuan Teng Roy | e1113900@u.nus.edu |
+| Liu Wudi | e1114893@u.nus.edu |
+| Michael Wong Wait Kit | e1112874@u.nus.edu |
+| Ong Wee Yang | e0493296@u.nus.edu |
 
 ---
 
